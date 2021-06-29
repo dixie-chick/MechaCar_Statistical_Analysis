@@ -21,7 +21,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![Screen Shot 2021-06-27 at 4 32 15 PM](https://user-images.githubusercontent.com/79612565/123565950-590a7300-d773-11eb-8a16-9e7df0a49fa0.png)
 
 ### Key Takeaway
-Lots1 and Lots2 are in line with the mandated 100 pounds per square inch, however the variance for Lots3 exceeds the set PSI making it not compliance with design specs for MechaCar suspsension coils.  
+Lots1 and Lots2 are in line with the mandated 100 pounds per square inch, however the variance for Lots3 exceeds the set PSI making it not compliant with design specs for MechaCar suspsension coils.  
 
 ## T-Test on Suspension Coils
 - Run t-tests to determine if the manufacturing lots are statistically different from the mean population
@@ -29,6 +29,9 @@ Lots1 and Lots2 are in line with the mandated 100 pounds per square inch, howeve
 ![Lots_ttest](https://user-images.githubusercontent.com/79612565/123565965-61fb4480-d773-11eb-946f-8feb2fd33106.png)
 
 ### Key Takeaway:
+For Lot1 and Lot2, p-values are greater than an assumed .05, therefore the p-value is above the significance level.Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+Lot3 is below assumed p-value of .05, therefore we reject null hypothesis. This could protray an outlier in the data.
 
 ## Study Design:  MechaCar vs the Competition
 - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
