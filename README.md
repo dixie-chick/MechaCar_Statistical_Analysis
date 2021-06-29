@@ -7,12 +7,10 @@ statistical analyses and visualizations using R
 
 ### Key Takeaway
 1. From our linear regression model, the r-squared value is 0.72, which means that roughly 70% of the variablilty of our dependent variable (mpg) is explained using this linear model.  In a simple linear regression model, the higher the correlation is between two variables, the more that one variable can explain/predict the value of the other.
-2. In addition, the p-value of our linear regression analysis is 5.35 x 10-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
+    - In order to determine which variable provide significant contribution to the multiple linear model, look at the individual variable p-values in the summary output Pr(>ltl):
+    - AWD, vehicile_weight, and spoiler_angle all have significant contributions to overal mpg
+3. In addition, the p-value of our linear regression analysis is 5.35 x 10-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
-1. The non-random variable variance should be 0, meaning the 
-2. 
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-- Is the slope of the linear model considered to be zero? Why or why not?
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 ## Summary Statistics on Suspension Coils
@@ -34,7 +32,7 @@ Lots1 and Lots2 are in line with the mandated 100 pounds per square inch, howeve
 ### Key Takeaway:
 For Lot1 and Lot2, p-values are greater than an assumed .05, therefore the p-value is above the significance level.Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
-Lot3 is below assumed p-value of .05, therefore we reject null hypothesis. This could protray an outlier in the data.
+Lot3 is below assumed p-value of .05, therefore we reject null hypothesis. This could protray an outlier in the data such as a significant manufaturing error.
 
 ## Study Design:  MechaCar vs the Competition
 - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
