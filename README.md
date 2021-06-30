@@ -36,11 +36,17 @@ For Lot1 and Lot2, p-values are greater than an assumed .05, therefore the p-val
 Lot3 is below assumed p-value of .05, therefore we reject null hypothesis. This could protray an outlier in the data such as a significant manufaturing error.
 
 ## Study Design:  MechaCar vs the Competition
-- Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
-- Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+With fuel prices pushing $5 in some areas, consumers are more aware of efficiency when buying a car. If combined MPG is 60 or above, then car sales will be higher than the competition due to consumer switching .
 
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+### Metrics to Test
+fuel efficiency measured in combined mpg: rising price of fuel influences consumer purchasing behavior
+
+### Hypothesis
+Null: MechaCar has a high fuel efficiency rating competetive with the market, influencing consumer swtiching to buy.
+Alternative: MechaCar does not have effiecient mpg ratings.
+
+### Tests Used
+The hythpothesis above can be tested with a Two-sample t-test measured against an industry standard and MechaCars fuel efficient mpg.
+
+### Data Needed
+In order to run the test, data is needed from MechaCar combind mpg and a large sample from the competetition of similiar vehicles in price and size.
